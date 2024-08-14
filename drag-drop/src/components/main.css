@@ -1,0 +1,60 @@
+/* Add Card button CSS */
+
+.add-card-button {
+        background: #57db53;
+        width: 20%;
+        height: 50px;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer; /* To indicate it's clickable */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Smooth transition effect */
+}
+
+.add-card-button:hover {
+    background: #06f335; /* Slightly darker green on hover */
+  }
+
+
+/* Card.css */
+
+.card-container {
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: pink;
+    border: 1px solid #ccc; /* Adjust color as needed */
+    font-style: italic;
+  }
+  
+/* Show more Css */
+
+.show-more{
+    background-color: #57db53;
+    border-radius: 10px;
+    color: black;
+}
+
+
+/* Canvas CSS */
+
+.canvas-container {
+    padding: 20px;
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+    width: 100%;
+    background: #e0e0e0;
+  }
+
+
+/* Style for Model detail-button */
+.detail-button{
+    background-color: rgb(255 34 34 / 86%);
+    color: black;
+    width: 30%;
+    border-radius: 12px;
+}
